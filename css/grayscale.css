@@ -228,12 +228,25 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
+.btn-circle.blue-btn{
+    border: 2px solid #0B62BD;
+    color: #0B62BD;
+}
+
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
     color: #fff;
     background: rgba(255,255,255,.1);
 }
+
+.btn-circle.blue-btn:hover,
+.btn-circle.blue-btn:focus {
+    outline: 0;
+    color: #0B62BD;
+    background: rgba(11, 98, 189,.1);
+}
+
 
 .btn-circle i.animated {
     -webkit-transition-property: -webkit-transform;
